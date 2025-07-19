@@ -1,49 +1,54 @@
-# smart_irrigation
-AI-based smart irrigation system using green technology for sustainable farming.
-🌱 Smart Irrigation System using AI & Green Technology
-🚀 Overview
-The Smart Irrigation System is an AI-driven project that aims to optimize water usage in agriculture by automating irrigation based on real-time environmental conditions and intelligent prediction models. This project promotes sustainable farming and supports the green technology movement by conserving water and energy, reducing manual effort, and increasing crop yield.
+# 🌿 Smart Irrigation System - AICTE Internship (Week 1)
 
-🎯 Objectives
-Reduce water wastage through data-driven irrigation.
+This repository contains the **Week 1 work** of the *Smart Irrigation* project under the **AICTE Shell India - Edunet Foundation Internship Program**.
 
-Monitor environmental factors like soil moisture, humidity, and temperature.
+---
 
-Use AI to predict the best time and amount for watering.
+## 📌 Project Title
+**Smart Irrigation using Artificial Intelligence**
 
-Support eco-friendly agriculture with minimal resource consumption.
+---
 
-🧠 Technologies Used
-Artificial Intelligence / Machine Learning
+## 🧠 Objective
+To develop a machine learning model that can predict irrigation requirements for multiple crop parcels based on real-time sensor data.
 
-Predictive models for irrigation scheduling
+---
 
-Python
+## 🏗️ Week 1 Work Summary
+- Loaded and explored the dataset of sensor values.
+- Preprocessed the data (scaling using MinMaxScaler).
+- Trained a **Random Forest Classifier** using `MultiOutputClassifier` to handle multiple target outputs (`parcel_0`, `parcel_1`, `parcel_2`).
+- Evaluated the model using classification metrics.
+- Saved the cleaned dataset and working Jupyter Notebook.
 
-Core programming language for AI logic
+---
 
-IoT / Sensor Integration (Optional in prototype or simulation mode)
+## 📁 Repository Contents
+| File Name                        | Description                                |
+|----------------------------------|--------------------------------------------|
+| `Smart_Irrigation_Completed.ipynb` | Jupyter Notebook with model, code, and output |
+| `final_irrigation_dataset.csv`     | Cleaned sensor dataset used for training     |
 
-Soil moisture, temperature, humidity sensors (simulated if no hardware available)
+---
 
-Flask / Streamlit
+## 🛠️ Technologies Used
+- Python
+- Pandas, Seaborn, Matplotlib
+- Scikit-learn (ML modeling)
+- Jupyter Notebook
 
-For creating web dashboards or APIs
+---
 
-Matplotlib / Seaborn
+## 🙌 Acknowledgements
+This project is developed as part of the **AICTE Internship Program** in collaboration with **Shell India** and **Edunet Foundation**.
 
-Data visualization
+---
 
-Pandas / NumPy
+## 🔗 Next Steps
+- Week 2: Build a UI or deploy the model
+- Add visualization and prediction interface
 
-Data handling and processing
+> 💡 *This Week 1 work lays the foundation for smart and efficient irrigation management using AI.*
 
-🌍 Green Technology Focus
-Encourages sustainable water management in farming.
 
-Reduces dependency on manual labor and prevents over-irrigation.
-
-Helps maintain soil health and reduce runoff.
-
-Applicable for smart farming, urban gardening, and greenhouses.
 
