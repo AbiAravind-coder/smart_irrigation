@@ -44,11 +44,7 @@ This project is developed as part of the **AICTE Internship Program** in collabo
 
 ---
 
-## 🔗 Next Steps
-- Week 2: Build a UI or deploy the model
-- Add visualization and prediction interface
-
-> 💡 *This Week 1 work lays the foundation for smart and efficient irrigation management using AI.*
+This Week 1 work lays the foundation for smart and efficient irrigation management using AI.*
 
 
 
